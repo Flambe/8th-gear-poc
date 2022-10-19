@@ -1,0 +1,21 @@
+[
+  {
+    "name": "8th Gear Racing EU OP",
+    "players": 56,
+    "weather": "sunny"
+  },
+  {
+    "name": "8th Gear Racing US Dev",
+    "players": 3,
+    "maxPlayers": 26,
+    "weather": "raining",
+    "whitelist": "1322",
+    "backgroundUrl": "https://s.rsg.sc/sc/images/games/GTAV/map/render/3/1/2.jpg"
+  },
+  {
+    "name": "8th Gear Racing US East",
+    "players": 0,
+    "maxPlayers": 20,
+    "weather": "sunny"
+  }
+]
