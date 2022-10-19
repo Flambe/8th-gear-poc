@@ -14,7 +14,6 @@ jobs:
       run: |
         npm ci
         npm run build -- --base=/8th-gear-poc/
-        mkdir -p dist/src/assets && cp -r src/assets dist/src
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
       with:

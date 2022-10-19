@@ -1,3 +1,5 @@
+import url from '../assets/json/serverList.json?url';
+
 export interface Server {
   name: string;
   players: number;
@@ -8,7 +10,7 @@ export interface Server {
 }
 
 export async function getServers(): Promise<Server[]> {
-  const response = await fetch(`/src/assets/json/serverList.json`);
+  const response = await fetch(url);
 
   await new Promise(resolve => setTimeout(resolve, 2_000));
 
