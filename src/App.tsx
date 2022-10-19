@@ -5,8 +5,8 @@ import { ServerList } from './components/servers/ServerList';
 const App: () => JSX.Element = () => {
   return (
     <div
-      class="flex gap-4 h-screen"
-      style={'background-image: url(https://8thgear.racing/static/bg.webp)'}
+      class="flex gap-4 h-screen bg-cover bg-no-repeat"
+      style={'background-image: url(https://8thgear.racing/static/bg.webp); background-position: 50%;'}
     >
       <Sidebar/>
 
